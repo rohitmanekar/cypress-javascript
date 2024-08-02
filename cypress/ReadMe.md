@@ -50,8 +50,8 @@ Ensure you have the following installed:
 ### Test Details
 The buy_item.spec.js file contains an end-to-end test for buying an item on the Sauce Demo website. The test performs the following steps:
 
-Logs into the website using valid credentials.
-Adds the first item to the cart.
-Proceeds to the checkout page.
-Fills in the checkout information.
-Completes the purchase and verifies the success message.
+- Logs into the website using valid credentials.
+- Adds the first item to the cart.
+- Proceeds to the checkout page.
+- Fills in the checkout information.
+- Completes the purchase and verifies the success message.
