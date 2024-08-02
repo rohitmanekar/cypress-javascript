@@ -35,3 +35,23 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/rohitmanekar/cypress-javascript.git
    cd cypress-javascript
+
+2. Install the dependencies:
+   npm install
+
+### Running Tests
+
+1. Open the Cypress Test Runner:
+    npx cypress open
+
+2. Run the tests in headless mode:
+    npx cypress run
+
+### Test Details
+The buy_item.spec.js file contains an end-to-end test for buying an item on the Sauce Demo website. The test performs the following steps:
+
+Logs into the website using valid credentials.
+Adds the first item to the cart.
+Proceeds to the checkout page.
+Fills in the checkout information.
+Completes the purchase and verifies the success message.
