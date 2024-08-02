@@ -1,6 +1,3 @@
-// <reference types="cypress" />
-
-//import { locators } from '../../support/locators';
 import { locators } from '../support/locators';
 
 context('Buy item', () => {
